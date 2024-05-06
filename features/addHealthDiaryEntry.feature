@@ -1,4 +1,3 @@
-
 Feature: Manage Health Diary on Metrics Tab
   As a user concerned about my health, 
   I want to view and manage my health diary on the Metrics tab, 
