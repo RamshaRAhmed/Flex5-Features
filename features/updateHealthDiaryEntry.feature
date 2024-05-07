@@ -9,3 +9,4 @@ Feature: View Health Diary on Metrics Tab
     And there is an existing health diary entry for the selected date
     When the user updates the existing health diary entry with new values for the metrics:
     Then the user should see the updated health diary entry reflected in the list of biometric information
+    Then the user should see updated graphs in the details of a given metric with data from other dates

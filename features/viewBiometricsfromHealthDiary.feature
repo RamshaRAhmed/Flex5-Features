@@ -25,3 +25,10 @@
   #   And there is an existing health diary entry for the selected date
   #   When the user updates the existing health diary entry with new values for the metrics:
   #   Then the user should see the updated health diary entry reflected in the list of biometric information
+
+  # Scenario: Change to Another Health Diary Day Entry
+  #   Given the user is logged into the application
+  #   And the user navigates to the Metrics tab
+  #   When the user select a different date from the calendar control
+  #   Then the user should see the health diary entry for that date or blank if no entry
+

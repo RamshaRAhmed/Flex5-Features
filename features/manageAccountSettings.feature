@@ -6,7 +6,7 @@ Feature: Manage Account Settings
 
   Scenario: View Account Settings
     Given the user is logged into the application
-    When the user navigates to the Settings tab
+    When the user navigates to the Settings option in the profile menu on the top menu bar
     And the user selects the Account Settings option
     Then the user should see options to manage their account information such as email and password
 

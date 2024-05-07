@@ -8,7 +8,7 @@ Feature: Manage Profile Settings
     Given the user is logged into the application
     When the user navigates to the Settings tab
     And the user selects the Profile Settings option
-    Then the user should see options to manage their personal information such as name, address, and general practitioner information
+    Then the user should see options to manage their personal information such as name, mobile #, birthday, height, sex, and general practitioner information
 
   Scenario: Update Personal Information
     Given the user is logged into the application
