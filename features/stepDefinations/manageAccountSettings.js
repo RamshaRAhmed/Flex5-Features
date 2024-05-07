@@ -1,7 +1,4 @@
 const {Given,When,Then}= require('@cucumber/cucumber')      
-
-
-
          When('the user selects the Account Settings option', function () {
            // Write code here that turns the phrase above into concrete actions
            return console.log("User clicks on Settings option");
