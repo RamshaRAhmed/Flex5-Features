@@ -15,3 +15,8 @@ Then('the user should see the updated health diary entry reflected in the list o
   // Write code here that turns the phrase above into concrete actions
   return console.log('Biometric Record Updated');
 });
+
+         Then('the user should see updated graphs in the details of a given metric with data from other dates', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return console.log('display updated graphs');
+         });

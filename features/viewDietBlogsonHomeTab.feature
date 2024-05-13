@@ -25,9 +25,9 @@ Scenario: User navigates to the home tab and clicks on the Food for Thought
     And the user should be able to click on a blog post to read its full content
     And the user should be able to click links in the blog post to open up in a browser
 
-Scenario: User does not see any diet blogs on the home tab  (Not sure we need this ... I think we will rotate existing blog posts?)
-    Given the user is logged into the application
-    And there are no diet-related blog posts available
-    When the user navigates to the home tab
-    Then the user should see a message indicating that there are currently no diet blogs available
+# Scenario: User does not see any diet blogs on the home tab  (Not sure we need this ... I think we will rotate existing blog posts?)
+#     Given the user is logged into the application
+#     And there are no diet-related blog posts available
+#     When the user navigates to the home tab
+#     Then the user should see a message indicating that there are currently no diet blogs available
 

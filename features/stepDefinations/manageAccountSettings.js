@@ -4,6 +4,11 @@ const {Given,When,Then}= require('@cucumber/cucumber')
            return console.log("User clicks on Settings option");
          });
 
+           When('the user navigates to the Settings option in the profile menu on the top menu bar', function () {
+             // Write code here that turns the phrase above into concrete actions
+             return console.log('User navigates to settings option');
+           });
+
          Then('the user should see options to manage their account information such as email and password', function () {
            // Write code here that turns the phrase above into concrete actions
            return console.log("User sees their account information");

@@ -10,7 +10,7 @@ const {Given,When,Then}= require('@cucumber/cucumber')
            return console.log("User clicks on the Profile Settings option");
          });
 
-         Then('the user should see options to manage their personal information such as name, address, and general practitioner information', function () {
+         Then('the user should see options to manage their personal information such as name, mobile #, birthday, height, sex, and general practitioner information', function () {
            // Write code here that turns the phrase above into concrete actions
            return console.log("User sees their personal information.");
          });

@@ -12,6 +12,45 @@ When('the user navigates to the home tab', function () {
 });
 
 
+
+  Then('the user should see a section titled Food for Thought', function () {
+    // Write code here that turns the phrase above into concrete actions
+    return console.log('display food for thought section');
+  });
+
+
+
+  When('the user clicks on the Food for Thought section', function () {
+    // Write code here that turns the phrase above into concrete actions
+    return console.log('clicks on food for thought section');
+  });
+
+
+  When('the user should see a list of currated topics by Dr. Tom blog posts by date', function () {
+    // Write code here that turns the phrase above into concrete actions
+    return console.log('user sees a list of curated topics by Dr Tom');
+  });
+
+
+         Then('the user should see a section titled Community Topics', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return console.log('see section titled community topics');
+         });
+
+         When('the user clicks on the Community Topics section', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return console.log('user clicks on section titled community topics');
+         });
+
+
+
+         When('the user should see a list of currated community topics blog posts by date', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return console.log('Creating New Recorduser should see a list of currated community topics blog posts by date');
+         });
+
+
+
 Then('the user should see a section titled', function () {
   // Write code here that turns the phrase above into concrete actions
   return console.log('loading title...');
@@ -37,6 +76,10 @@ Then('the user should be able to click on a blog post to read its full content',
   ;
 });
 
+When('the user should be able to click links in the blog post to open up in a browser', function () {
+  // Write code here that turns the phrase above into concrete actions
+  return console.log('blog post is clickable');
+});
 Given('there are no diet-related blog posts available', function () {
   // Write code here that turns the phrase above into concrete actions
   return console.log('No Blogs Available');
