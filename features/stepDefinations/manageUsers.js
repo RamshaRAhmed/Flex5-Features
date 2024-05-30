@@ -5,7 +5,7 @@ Given('the admin is logged into the admin dashboard', function () {
     console.log("Admin is logged into the admin dashboard");
 });
 
-When('the admin adds a new user with valid information', function () {
+When('the admin adds a new user by providing following information name, email', function () {
     // Code to add a new user with valid information
     console.log("Admin adds a new user with valid information");
 });
@@ -14,6 +14,16 @@ Then('the new user should be successfully added to the system', function () {
     // Code to verify that the new user is added successfully
     console.log("New user is successfully added to the system");
 });
+Then('the app generates a temporary password for the user', function () {
+    // Write code here that turns the phrase above into concrete actions
+   
+  });
+
+
+  Then('the temporary password is emailed to the user', function () {
+    // Write code here that turns the phrase above into concrete actions
+  
+  });
 
 
 Given('there is a user in the system', function () {
@@ -41,3 +51,9 @@ Then('the user should be removed from the system', function () {
     // Code to verify that the user is removed from the system
     console.log("User is removed from the system");
 });
+
+
+ Given('the admin edits user personal information', function () {
+           // Write code here that turns the phrase above into concrete actions
+           
+         });

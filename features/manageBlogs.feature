@@ -6,7 +6,7 @@ Feature: Manage Blogs on Admin Dashboard
 
   Scenario: Add New Blog
     Given the admin is logged into the admin dashboard
-    When the admin adds a new blog with valid information
+    When the admin adds a new blog by providing following information title, content, banner image, visibility
     Then the new blog should be successfully added to the system
 
   Scenario: Edit Blog

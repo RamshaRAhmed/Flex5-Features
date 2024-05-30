@@ -1,6 +1,6 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
 
-When('the admin adds a new blog with valid information', function () {
+When('the admin adds a new blog by providing following information title, content, banner image, visibility', function () {
     // Code to add a new blog with valid information
 });
 
